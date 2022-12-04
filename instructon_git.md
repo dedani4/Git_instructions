@@ -6,5 +6,4 @@ Git is application for control version
 
 To initialize new repository input command:
 
-    git init
-    
+    git init 
