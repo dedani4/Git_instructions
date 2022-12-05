@@ -45,5 +45,22 @@ To compare any two commits, enter command:
 
     git diff <commitX> <commitY>
 
+* ## Commit logs
+
+To show commit logs, enter command:
+
+    git log
+
+To show all commits (even older from Head), enter command:
+
+    git log --all
+
+To show commits logs line by line, enter command:
+
+    git log --oneline
+
+To show all commits (even older from Head) line by line, enter command: 
+
+    git log --all --oneline
 
 
