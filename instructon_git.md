@@ -4,6 +4,13 @@ Git is application for control version
 
 ## New repository creation
 
-To initialize new repository input command:
+To initialize a new repository, enter the command:
 
     git init 
+
+
+## Repository actual state checking
+
+To check the repository condition, enter comand:
+
+git diff
