@@ -63,4 +63,12 @@ To show all commits (even older from Head) line by line, enter command:
 
     git log --all --oneline
 
+* ## Switch between commits
 
+To update Head to match the specific commit, enter command:
+
+    git checkout <commit>
+
+To update Head to match the latest commit, enter command:
+
+    git checkout master
