@@ -1,74 +1,80 @@
 # Instruction for git using
 
-Git is application for version control
+### **Git** is a distributed system for version control
 
-* ## New repository creation
+***
+## [New repository creation](https://git-scm.com/docs/git-init)
 
-To initialize a new repository, enter the command:
+* To initialize a new repository, enter the command:
 
-    git init
+    __git init__
 
+***
+## [Show the working tree status](https://git-scm.com/docs/git-status)
 
-* ## Show the working tree status
+* To check for changes that need to be commited enter command:
 
-To check for changes that need to be commited enter command:
+    __git status__
 
-    git status
+***
+## [Add file content to index](https://git-scm.com/docs/git-add)
 
-* ## Add file content to index
+* To update the index using current content for preparing content to commit, enter command:
 
-To update the index using current content for preparing content to commit, enter command:
+    __git add [file name]__
 
-    git add <file name>
+***
+## [Record changes to the repository](https://git-scm.com/docs/git-commit)
 
-* ## Record changes to the repository
+* To commit changes in current content of the index (that was added) and create log message in pop up window (ctrl+s), enter command:
 
-To commit changes in current content of the index (that was added) and create log message in pop up window (ctrl+s), enter command:
+    __git commit__
 
-    git commit
+* To commit changes in current content of the index (that was added) and create log message in terminal, enter command:
 
-To commit changes in current content of the index (that was added) and create log message in terminal, enter command:
+    __git commit -m "log massage"__
 
-    git commit -m "log massage"
+* To update the index and commit changes at the same time, enter command
 
-To update the index and commit changes at the same time, enter command
+    __git commit -am "log message"__
 
-    git commit -am "log message"
+***
+## [Changes presentation](https://git-scm.com/docs/git-diff)
 
-* ## Changes presentation
+* To compare index content and Head commit, enter comand:
 
-To compare index content and Head commit, enter comand:
+    __git diff__
 
-    git diff
+* To compare any two commits, enter command:
 
-To compare any two commits, enter command:
+    __git diff [commitX] [commitY]__
 
-    git diff <commitX> <commitY>
+***
+## [Commit logs](https://git-scm.com/docs/git-log)
 
-* ## Commit logs
+* To show commit logs, enter command:
 
-To show commit logs, enter command:
+    __git log__
 
-    git log
+* To show all commits (even older from Head), enter command:
 
-To show all commits (even older from Head), enter command:
+    __git log --all__
 
-    git log --all
+* To show commits logs line by line, enter command:
 
-To show commits logs line by line, enter command:
+    __git log --oneline__
 
-    git log --oneline
+* To show all commits (even older from Head) line by line, enter command: 
 
-To show all commits (even older from Head) line by line, enter command: 
+    __git log --all --oneline__
 
-    git log --all --oneline
+***
+## [Switch between commits](https://git-scm.com/docs/git-checkout)
 
-* ## Switch between commits
+* To update Head to match the specific commit, enter command:
 
-To update Head to match the specific commit, enter command:
+    __git checkout [commit]__
 
-    git checkout <commit>
+* To update Head to match the latest commit, enter command:
 
-To update Head to match the latest commit, enter command:
-
-    git checkout master
+    __git checkout master__
