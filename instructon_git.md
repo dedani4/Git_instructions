@@ -2,24 +2,38 @@
 
 Git is application for version control
 
-## New repository creation
+* ## New repository creation
 
 To initialize a new repository, enter the command:
 
     git init
 
 
-## Show the working tree status
+* ## Show the working tree status
 
 To check for changes that need to be commited enter command:
 
     git status
 
-## Add file content to index
+* ## Add file content to index
 
-To add a change in the working directory to the staging area, enter command:
+To update the index using current content for preparing content to commit, enter command:
 
-    git add -<file name>
+    git add <file name>
+
+* ## Record changes to the repository
+
+To commit changes in current content of the index (that was added) and create log message in pop up window (ctrl+s), enter command:
+
+    git commit
+
+To commit changes in current content of the index (that was added) and create log message in terminal, enter command:
+
+    git commit -m "log massage"
+
+To update the index and commit changes at the same time, enter command
+
+    git commit -am "log message"
 
 ## Repository actual state checking
 
