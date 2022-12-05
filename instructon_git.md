@@ -15,7 +15,11 @@ To check for changes that need to be commited enter command:
 
     git status
 
+## Add file content to index
 
+To add a change in the working directory to the staging area, enter command:
+
+    git add -<file name>
 
 ## Repository actual state checking
 
