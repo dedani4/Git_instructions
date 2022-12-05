@@ -35,11 +35,15 @@ To update the index and commit changes at the same time, enter command
 
     git commit -am "log message"
 
-## Repository actual state checking
+* ## Changes presentation
 
-To check the repository condition, enter comand:
+To compare index content and Head commit, enter comand:
 
     git diff
+
+To compare any two commits, enter command:
+
+    git diff <commitX> <commitY>
 
 
 
