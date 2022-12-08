@@ -1,7 +1,7 @@
 # Instruction for git using
 
 ### **Git** is a distributed system for version control
-
+![git logo](git_logo.jpg)
 ***
 ## [New repository creation](https://git-scm.com/docs/git-init)
 
