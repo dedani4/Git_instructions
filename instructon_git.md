@@ -78,3 +78,8 @@
 * To update Head to match the latest commit, enter command:
 
     __git checkout master__
+
+## _**Branching**_ 
+    *in Git*
+
+
