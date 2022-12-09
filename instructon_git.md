@@ -91,5 +91,7 @@
 
     __git branch [new branch name]__
     
+* To switch between branches, enter command:
 
+    __git 
 
