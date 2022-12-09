@@ -87,6 +87,11 @@
     __git branch__  
     *(Current branch will be green highlghted)*
 
+* To create new branch, enter commnd:
+
+    __git branch [branch name]__
+
+
     
 
 
