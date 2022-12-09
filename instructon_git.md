@@ -87,6 +87,9 @@
     __git branch__  
     *(Current branch will be green highlghted)*
 
+* To create new branches:
+
+    __git branch [new branch name]__
     
 
 
