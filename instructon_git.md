@@ -80,6 +80,13 @@
     __git checkout master__
 
 ## _**Branching**_ 
-    *in Git*
+*in Git*
+
+* To show all branches, enter command:
+
+    __git branch__  
+    *(Current branch will be green highlghted)*
+
+    
 
 
