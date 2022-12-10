@@ -90,8 +90,10 @@
 * To create new branch, enter command:
 
     __git branch [new branch name]__
-    
+
 * To switch between branches, enter command:
 
-    __git 
+    __git checkout [branch name]__ 
+    
+
 
