@@ -68,6 +68,10 @@
 
     __git log --all --oneline__
 
+* To show all commits (even older from Head) line by line with branches graphic view, enter command: 
+
+    __git log --all --oneline --graph__
+
 ***
 ## [Switch between commits](https://git-scm.com/docs/git-checkout)
 
@@ -102,6 +106,8 @@
 * To switch between branches, enter command:
 
     __git checkout [branch name]__ 
+
+
     
 
 
