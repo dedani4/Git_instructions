@@ -95,5 +95,15 @@
 
     __git checkout [branch name]__ 
     
+* To
 
+    __git branch -d [branch name]__
+
+* To
+
+    __git --all --oneline --graph__
+
+* To
+
+    __git merge [branch name]__
 
