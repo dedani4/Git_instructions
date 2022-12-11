@@ -103,8 +103,11 @@
 
     __git --all --oneline --graph__
 
-* To
+***
+## [Join two branches](https://git-scm.com/docs/git-merge)
 
-    __git merge [branch name]__
+* To incorporates changes from other branch into the current branch.
+
+    __git merge [other branch name]__
 
 __git flow__ description
