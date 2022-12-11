@@ -89,6 +89,7 @@
 
 
 ***
+***
 ## [_**Branching**_](https://git-scm.com/book/en/v2/Git-Branching-Branches-in-a-Nutshell)
 *allows you diverge from the main line of development and continue to do work without messing with that main line.* 
 
@@ -115,16 +116,6 @@
 * To force to delete branch, *__that wasn't merged in its upstream branch, or in HEAD__*, enter command:
 
     __git branch -D [branch name]__
-
-
-    
-* To
-
-    __git branch -d [branch name]__
-
-* To
-
-    __git --all --oneline --graph__
 
 ***
 ## [Join two branches](https://git-scm.com/docs/git-merge)
