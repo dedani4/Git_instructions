@@ -118,5 +118,18 @@
 
 
     
+* To
 
+    __git branch -d [branch name]__
+
+* To
+
+    __git --all --oneline --graph__
+
+***
+## [Join two branches](https://git-scm.com/docs/git-merge)
+
+* To incorporates changes from other branch into the current branch.
+
+    __git merge [other branch name]__
 
