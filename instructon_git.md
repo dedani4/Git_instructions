@@ -68,6 +68,10 @@
 
     __git log --all --oneline__
 
+* To show all commits (even older from Head) line by line with branches graphic view, enter command: 
+
+    __git log --all --oneline --graph__
+
 ***
 ## [Switch between commits](https://git-scm.com/docs/git-checkout)
 
@@ -79,8 +83,22 @@
 
     __git checkout master__
 
-## _**Branching**_ 
-*in Git*
+* To update Head to match the latest commit of special branch (switch between branches), enter command:
+
+    __git checkout [branch name]__ 
+
+
+***
+***
+## [_**Branching**_](https://git-scm.com/book/en/v2/Git-Branching-Branches-in-a-Nutshell)
+*allows you diverge from the main line of development and continue to do work without messing with that main line.* 
+
+*Git encourages workflows that branch and merge often*
+
+*The __“master”__ branch in Git is not a special branch. It is exactly like any other branch. The only reason nearly every repository has one is that the* **git init** *command creates it by default and most people don’t bother to change it.*
+
+***
+## [Create, list, delete branches](https://git-scm.com/docs/git-branch)
 
 * To show all branches, enter command:
 
@@ -91,17 +109,13 @@
 
     __git branch [new branch name]__
 
-* To switch between branches, enter command:
-
-    __git checkout [branch name]__ 
-    
-* To
+* To delete branch that was *__fully merged in its upstream branch or in HEAD__*, enter command: 
 
     __git branch -d [branch name]__
 
-* To
+* To force to delete branch, *__that wasn't merged in its upstream branch, or in HEAD__*, enter command:
 
-    __git --all --oneline --graph__
+    __git branch -D [branch name]__
 
 ***
 ## [Join two branches](https://git-scm.com/docs/git-merge)
@@ -110,4 +124,8 @@
 
     __git merge [other branch name]__
 
-__git flow__ description
+#### *__Merge Conflicts__* 
+#### *If you changed the same part of the same file differently in the two branches you’re merging, Git won’t be able to merge them cleanly.*
+#### *Git hasn’t automatically created a new merge commit.*
+#### *It has paused the process while you resolve the conflict.*
+
