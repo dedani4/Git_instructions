@@ -107,3 +107,4 @@
 
     __git merge [branch name]__
 
+__git flow__ description
