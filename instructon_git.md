@@ -94,6 +94,14 @@
 * To switch between branches, enter command:
 
     __git checkout [branch name]__ 
-    
+
+* To delete branch that was *__fully merged in its upstream branch or in HEAD__*, enter command: 
+
+    __git branch -d [branch name]__
+
+* To force to delete branch, *__that wasn't merged in its upstream branch, or in HEAD__*, enter command:
+
+    __git branch -D [branch name]__
+
 
 
