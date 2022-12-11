@@ -129,3 +129,7 @@
 #### *Git hasn’t automatically created a new merge commit.*
 #### *It has paused the process while you resolve the conflict.*
 
+***
+***
+## [**Remote repository**]()
+
