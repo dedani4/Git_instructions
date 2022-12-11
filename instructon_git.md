@@ -79,8 +79,14 @@
 
     __git checkout master__
 
-## _**Branching**_ 
-*in Git*
+***
+## [_**Branching**_](https://git-scm.com/book/en/v2/Git-Branching-Branches-in-a-Nutshell)
+*allows you diverge from the main line of development and continue to do work without messing with that main line.* 
+
+*Git encourages workflows that branch and merge often*
+
+***
+## [Create, list, delete branches](https://git-scm.com/docs/git-branch)
 
 * To show all branches, enter command:
 
