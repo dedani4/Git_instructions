@@ -110,3 +110,8 @@
 
     __git merge [other branch name]__
 
+#### *__Merge Conflicts__* 
+#### *If you changed the same part of the same file differently in the two branches you’re merging, Git won’t be able to merge them cleanly.*
+#### *Git hasn’t automatically created a new merge commit.*
+#### *It has paused the process while you resolve the conflict.*
+
