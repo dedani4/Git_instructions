@@ -79,6 +79,10 @@
 
     __git checkout master__
 
+* To update Head to match the latest commit of special branch (switch between branches), enter command:
+
+    __git checkout [branch name]__ 
+
 ## _**Branching**_ 
 *in Git*
 
@@ -90,10 +94,6 @@
 * To create new branch, enter command:
 
     __git branch [new branch name]__
-
-* To switch between branches, enter command:
-
-    __git checkout [branch name]__ 
 
 * To delete branch that was *__fully merged in its upstream branch or in HEAD__*, enter command: 
 
